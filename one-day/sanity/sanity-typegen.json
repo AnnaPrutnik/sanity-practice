@@ -1,0 +1,5 @@
+{
+  "path": "../next/src/**/*.{ts,tsx,js,jsx}",
+  "schema": "./schema.json",
+  "generates": "../next/src/sanity/types.ts"
+}
