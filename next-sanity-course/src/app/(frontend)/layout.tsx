@@ -1,4 +1,4 @@
-import { SanityLive } from '@/sanity/lib/live';
+// import { SanityLive } from '@/sanity/lib/live';
 import { Header } from '@/components/Header';
 
 export default function RootLayout({
@@ -10,7 +10,7 @@ export default function RootLayout({
     <section className="bg-white min-h-screen">
       <Header />
       {children}
-      <SanityLive />
+      {/* <SanityLive /> */}
     </section>
   );
 }
