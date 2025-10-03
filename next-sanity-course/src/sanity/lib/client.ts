@@ -8,6 +8,7 @@ export const client = createClient({
   apiVersion,
   useCdn: true, // Set to false if statically generating pages, using ISR or tag-based revalidation
   // useCdn: false,
+  stega: { studioUrl: '/studio' },
 });
 
 export async function sanityFetch<const QueryString extends string>({
